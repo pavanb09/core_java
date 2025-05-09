@@ -1,4 +1,4 @@
-package day_4;
+package day_3;
 
 import java.util.Scanner;
 
@@ -32,6 +32,8 @@ public class StrongNumber {
 		int n = sc.nextInt();
 		
 		isStrongNumber(n);
+		sc.close();
 
 	}
+
 }

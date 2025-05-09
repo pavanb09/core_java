@@ -1,7 +1,8 @@
-package day_3;
+package day_2;
 
-public class ReverseNumbers {
-	
+public class PalindromeNumber {
+
+
 	public static int  reverseNumber(int n) {
 		int reverse = 0;
 		while(n > 0) {
@@ -15,7 +16,10 @@ public class ReverseNumbers {
 	public static void main(String[] args) {
 		
 		for(int i = 1; i<= 1000; i++) {
-			System.out.println(i + " : " + reverseNumber(i));
+			if(i == reverseNumber(i)) {
+				System.out.println("Palindrome Number  : " + i);
+			}
 		}
 	}
+
 }

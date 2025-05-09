@@ -1,4 +1,4 @@
-package day_4;
+package day_3;
 
 public class CountEvenDigits {
 

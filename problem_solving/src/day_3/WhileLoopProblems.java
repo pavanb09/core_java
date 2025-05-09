@@ -1,8 +1,9 @@
-package day_4;
+package day_3;
+
 
 import java.util.Scanner;
 
-public class whileLoopProblem {
+public class WhileLoopProblems {
 	
 	public static void IsPrimeNumber(int n) {
 		boolean isCheck = true;
@@ -76,3 +77,4 @@ public class whileLoopProblem {
 		
 	}
 }
+

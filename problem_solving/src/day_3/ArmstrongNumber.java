@@ -1,10 +1,10 @@
-package day_4;
+package day_3;
 
 import java.util.Scanner;
 
 public class ArmstrongNumber {
 	
-	public static int digitCount(int n) {
+	public static int digitCount(int n) {//153
 		int count = 0;
 		while(n>0) {
 			count++;
@@ -26,7 +26,7 @@ public class ArmstrongNumber {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your number : ");
-		int n = sc.nextInt();
+		int n = sc.nextInt();//153
 		
 		int count = digitCount(n);
 		int sumOf = 0;
@@ -47,3 +47,4 @@ public class ArmstrongNumber {
 		sc.close();
 	}
 }
+

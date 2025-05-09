@@ -1,6 +1,6 @@
-package day_4;
+package day_3;
 
-public class Powers {
+public class powers {
 	public static void main(String[] args) {
 		int number = 5;
 		int power = 6; 
